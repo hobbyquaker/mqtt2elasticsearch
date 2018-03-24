@@ -1,0 +1,42 @@
+{
+  "name": "mqtt2elasticsearch",
+  "version": "1.0.0",
+  "description": "Send MQTT messages to Elasticsearch",
+  "main": "index.js",
+  "bin": {
+    "mqtt2elasticsearch": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "camo-purge ; xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hobbyquaker/mqtt2elasticsearch"
+  },
+  "keywords": [
+    "mqtt",
+    "smarthome",
+    "elasticsearch",
+    "log"
+  ],
+  "author": "Sebastian Raff <hobbyquaker@gmail.com> (https://github.com/hobbyquaker)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/mqtt2elasticsearch/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/mqtt2elasticsearch",
+  "dependencies": {
+    "mqtt": "^2.16.0",
+    "request": "^2.85.0",
+    "yalm": "^4.1.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "camo-purge": "^1.0.2",
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "space": 4
+  }
+}
